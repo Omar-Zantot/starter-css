@@ -12,3 +12,30 @@
 - `animation-fill-mode` :
 
   - it will automatically apply the styles up to zero percent before the animation starts So, again, these styles will now be applied before the animation starts simply by using the animation fill mode and set it to backwards.
+
+#### THREE PILLARS TO WRITE GOOD HTML AND CSS... AND BUILD GOOD WEBSITES
+
+!['BUILD GOOD WEBSITES'](/limg/RMP.png)
+
+#### WHAT HAPPENS TO CSS WHEN WE LOAD UP A WEBPAGE?
+
+![CSS WHEN WE LOAD](/limg/CSSLoad.png)
+
+#### The C in CSS (CASCADE)
+
+![alt text](/limg/image.png)
+
+![alt text](/limg/image-1.png)
+
+![alt text](/limg/image-2.png)
+
+#### CASCADE AND SPECIFICITY: WHAT YOU NEED TO KNOW
+
+- CSS declarations marked with !important have the highest priority;
+- But, only use !important as a last resource. It’s better to use correct specificities — more maintainable code!
+- Inline styles will always have priority over styles in external stylesheets;
+- A selector that contains 1 ID is more specific than one with 1000 classes;
+- A selector that contains 1 class is more specific than one with 1000 elements;
+- The universal selector \* has no specificity value (0, 0, 0, 0);
+- Rely more on specificity than on the order of selectors;
+- But, rely on order when using 3rd-party stylesheets — always put your author stylesheet last.
