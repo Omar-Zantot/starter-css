@@ -39,3 +39,23 @@
 - The universal selector \* has no specificity value (0, 0, 0, 0);
 - Rely more on specificity than on the order of selectors;
 - But, rely on order when using 3rd-party stylesheets — always put your author stylesheet last.
+
+#### CSS Values
+
+![alt text](limg\CSSvalues.png)
+
+#### How units are converted from relative to absolute
+
+![alt text](limg/HowValuesConvertedToAbs.png)
+
+#### CSS VALUE PROCESSING:
+
+- Each property has an initial value, used if nothing is declared and if there is no inheritance .
+- Browsers specify a root font-si ze for each page (usually 16px);
+- Percentages and relative values are always converted to pixels;
+- Percentages are measured relative to their **parent's font-size** , if used to specify _font-size_;
+- Percentages are measured relative to their parent's wi dth, if used to specify lengths;
+- em are measured relative to their parent font-si ze, if used to specify font-si ze;
+- em are measured relative to the current font-si ze, if used to specify lengths;
+- rem are always measured relative to the document's root font-size;
+- vh and vw are simply percentage measurements of the viewport's height and width.
